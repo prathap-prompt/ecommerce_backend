@@ -1,0 +1,33 @@
+http://localhost:3000
+
+####
+
+
+
+
+ POST  http://localhost:3000/localhost:3000/api/products
+Content-Type: application/json
+
+{
+     "name":"nikejorden",
+     "price":"20000",
+     "stock":"3",
+    
+     "role":"admin"
+
+
+}
+
+
+#####
+
+POST  http://localhost:3000/api/products/
+Content-Type: application/json
+
+{
+     "name":"nikejorden2",
+     "price":"20000",
+     "stock":"3"
+     
+}
+
